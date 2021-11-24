@@ -1,7 +1,7 @@
 # 最后更新于2021.11.24
 
 HOST,apple.comscoreresearch.com,AppleNews
-# 说明:HOST,gateway.icloud.com必须走代理,且为美加英澳线路,目前仅此4个国家提供news服务
+# HOST,gateway.icloud.com必须走代理,且为美加英澳线路,目前仅此4个国家提供news服务
 HOST,gateway.icloud.com,AppleNews
 HOST,gspe1-ssl.ls.apple.com,AppleNews
 # host-suffix,ls.apple.com,AppleNews
