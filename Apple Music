@@ -1,0 +1,16 @@
+# 最后修改时间2021.11.24
+
+# aod.itunes.apple.com是下载歌曲所链接的域名，直连可用。建议直连direct以节约流量。
+HOST,aod.itunes.apple.com,direct
+HOST,audio-ssl.itunes.apple.com,AppleMusic
+HOST,audio.itunes.apple.com,AppleMusic
+HOST,mvod.itunes.apple.com,AppleMusic
+HOST,streamingaudio.itunes.apple.com,AppleMusic
+# blobstore.apple.com是上传私人歌曲至iCloud库所链接的域名，直连虽慢但可用。建议直连direct以节约流量。
+HOST-SUFFIX,blobstore.apple.com,direct
+HOST-SUFFIX,music.apple.com,AppleMusic
+# mzstatic.com用于移动端加载iTunes某些内容页面，包括但不限于app store内的缩略图。
+host-suffix,mzstatic.com,AppleMusic
+# amp.api.music暂不清楚，暂时使用策略代理。
+DOMAIN-SUFFIX, amp-api.music.apple.com,AppleMusic
+USER-AGENT,Music*,AppleMusic
