@@ -1,0 +1,12 @@
+# 最后修改于2021.11.24
+
+HOST,hls-amt.itunes.apple.com,AppleTV
+HOST,hls.itunes.apple.com,AppleTV
+HOST,np-edge.itunes.apple.com,AppleTV
+HOST,play-edge.itunes.apple.com,AppleTV
+HOST,uts-api.itunes.apple.com,AppleTV
+HOST-SUFFIX,tv.apple.com,AppleTV
+USER-AGENT,AppleTV*,AppleTV
+USER-AGENT,com.apple.tv*,AppleTV
+# vod-ap3-aoc用于视频缓存，请按需设置规则,若要改为直连,将末尾的AppleTV改为direct即可
+host-SUFFIX,vod-ap3-aoc.tv.apple.com,AppleTV
