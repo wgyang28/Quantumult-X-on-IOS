@@ -1,2 +1,4 @@
+# 机场一般不支持smtp,所以国区和外区的iCloud邮箱走direct即可
+
 HOST-SUFFIX,mail.icloud.com.cn,iCloud mail
 HOST-SUFFIX,mail.me.com,iCloud mail
